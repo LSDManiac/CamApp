@@ -1,0 +1,1 @@
+E:\Projects\Cam\CamApp\CamApp\CamApp.csproj;x86

@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="CamApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CamApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel x:Name="contentPanel"
+                    Margin="0, 30, 0, 0">
+            <TextBlock Text="CamApp"
+                       Margin="10,0,0,30"
+                       HorizontalAlignment="Left"
+                       FontSize="40"/>
+            <StackPanel x:Name="cameraMenuPanel"
+                        Orientation="Horizontal"
+                        Height="50"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Stretch"
+                        Margin="83,0">
+                <Button x:Name="settingsButton"
+                        Content="settings"
+                        HorizontalAlignment="Center"/>
+                <Button x:Name="recordButton"
+                        Content="record"/>
+                <Button x:Name="modeButton"
+                        Content="mode"
+                        HorizontalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

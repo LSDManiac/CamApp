@@ -1,1 +1,1 @@
-E:\Projects\Cam\CamApp\CamApp\CamApp.csproj;x64
+E:\Projects\CamApp\CamApp\CamApp.csproj;x64

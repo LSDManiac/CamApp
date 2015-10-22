@@ -22,12 +22,12 @@
                         Margin="83,0">
                 <Button x:Name="settingsButton"
                         Content="settings"
-                        HorizontalAlignment="Center"/>
+                        HorizontalAlignment="Center" Click="StartButtonClick"/>
                 <Button x:Name="recordButton"
-                        Content="record"/>
+                        Content="record" Click="ConfigButtonClick"/>
                 <Button x:Name="modeButton"
                         Content="mode"
-                        HorizontalAlignment="Center"/>
+                        HorizontalAlignment="Center" Click="GetSettings"/>
             </StackPanel>
         </StackPanel>
     </Grid>

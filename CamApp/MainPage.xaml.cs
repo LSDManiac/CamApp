@@ -29,7 +29,17 @@ namespace CamApp
 
         private void StartButtonClick(object sender, RoutedEventArgs e)
         {
+            Scripts.SocketController.OpenSocket();
+        }
 
+        private void ConfigButtonClick(object sender, RoutedEventArgs e)
+        {
+            Scripts.SocketController.GetConfigs();
+        }
+
+        private void GetSettings(object sender, RoutedEventArgs e)
+        {
+            Scripts.SocketController.GetSettings();
         }
     }
 }
